@@ -4,4 +4,4 @@
 Lab Member 001: Winnie She
 Lab ember 002: Elliot Lee
 
-Github Pages Link:
+Github Pages Link: https://yunyiwinnieshe.github.io/CSE110_Lab7/
