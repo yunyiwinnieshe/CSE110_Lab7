@@ -110,7 +110,7 @@ async function getRecipes() {
       try{
         const response = await fetch(RECIPE_URLS[i]);
         const data = await response.json();
-        recipeArray.append(data);
+        recipeArray.push(data);
         if(recipeArray.length == RECIPE_URLS.length){
           saveRecipesToStorage(recipeArray);
           resolve(recipeArray);
